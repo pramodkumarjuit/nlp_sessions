@@ -3,6 +3,12 @@
 ### Command to clone the repo: 
 - git clone git@github.com:/pramodkumarjuit/nlp_sessions.git
 
+### Command to add file(s) the repo: 
+- git add Readme.txt
+- git commit -a -m "Add Readme.txt"
+- git push origin main
+
+
 #### Bottom up approach
 - Text Preprocessing Level 1- Tokenization,Lemmatization,StopWords
 - Text Preprocessing Level 2- Bag Of  Words, TFIDF, Unigrams, Bigrams, n-grams
