@@ -4,6 +4,13 @@ Created on Sat Sep  2 01:38:34 2023
 
 @author: pramodk2
 """
+
+"""
+A simple model using LSTM layer for single char prediction.
+It is traing using a a texbook (Alice’s Adventures in Wonderland ) data.
+A window of 100 chars are used, meaning on giving 100 chars model tries to
+predicts 101 char.
+"""
 import numpy as np
 import torch
 import torch.nn as nn
